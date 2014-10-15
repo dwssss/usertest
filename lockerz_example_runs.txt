@@ -1,0 +1,63 @@
+Example Runs:
+
+Please enter the name of the lockerz data file
+lockerz.data
+File name you entered is lockerz.data
+Opening lockerz.data for reading
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+1
+ your bag is checked in; the ticket no is: 10001
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+1
+ your bag is checked in; the ticket no is: 10005
+ Please enter :  exit, checkin or checkout 
+exit
+exit from loop
+
+More example runs:
+
+Please enter the name of the lockerz data file
+lockerz.data
+File name you entered is lockerz.data
+Opening lockerz.data for reading
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+1
+ your bag is checked in; the ticket no is: 10006
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+2
+ your bag is checked in; the ticket no is: 20001
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+3
+ your bag is checked in; the ticket no is: 30001
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+1
+ your bag is checked in; the ticket no is: 10007
+ Please enter :  exit, checkin or checkout 
+exit
+exit from loop
+david-imac:usertest davidwszeto$ ruby lockerz.rb 
+Please enter the name of the lockerz data file
+lockerz.data
+File name you entered is lockerz.data
+Opening lockerz.data for reading
+ Please enter :  exit, checkin or checkout 
+checkin
+checkin, please enter bagsize:  1 for small, 2 for medium, 3 for large
+1
+ your bag is checked in; the ticket no is: 10008
+ Please enter :  exit, checkin or checkout 
+exit
+exit from loop
+david-imac:usertest davidwszeto$ 
